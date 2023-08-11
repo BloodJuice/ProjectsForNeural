@@ -93,12 +93,12 @@ def similarStrings(nameWay, nameLine):
         print(cloud)
         cloud.clear()
 def main():
-    # params = searcherParams(nameWay="E:\Нейронки\\r4", positionGroup=3)
-    # for j in range(len(params)):
-    #     parserFirst(nameWay="E:\Нейронки\\r4", nameFile=params[j], group=3, folder=4)
-    way = "E:\Нейронки\Parser\\files"
+    params = searcherParams(nameWay="E:\Нейронки\\r4", positionGroup=3)
+    for j in range(len(params)):
+        parserFirst(nameWay="E:\Нейронки\\r4", nameFile=params[j], group=3, folder=4)
+    # way = "E:\Нейронки\Parser\\files"
     # params = searcherParams(nameWay=way, positionGroup=4)
-    similarStrings(nameWay=way, nameLine='man')
+    # similarStrings(nameWay=way, nameLine='man')
 
 
 if __name__ == '__main__':
